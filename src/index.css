@@ -1,0 +1,128 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
+}
+
+.ui.container {
+  margin-left: 2rem !important;
+  margin-right: 2rem !important;
+}
+
+.header-container {
+  padding: 10px 0 !important;
+  border-bottom: 1px solid #ebebeb !important;
+}
+
+.ui.form .inline.fields {
+  margin-bottom: 0;
+}
+
+.ui.message {
+  margin: 0 0;
+  border-width: 0px;
+  padding: 0.5rem 1rem;
+  box-shadow: none !important;
+  border-bottom: 1px solid #ebebeb !important;
+  background: #000;
+  color: #fff;
+  border-radius: 0;
+}
+
+.bg-black {
+  background-color: #1b1c1d;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.color-link {
+  color: #4183c4;
+}
+
+.mt-1 {
+  margin-top:1rem;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.p-1 {
+  padding: 1rem 1rem;
+}
+
+.ml-1 {
+  margin-left: 1rem !important;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.btn-link {
+  color: #4183c4;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+}
+
+.app-info {
+  background-color: #eeeeee;
+  box-shadow: none;
+  border-radius: 0;
+  position: relative;
+}
+
+.ui.menu > .ui.container > .header.item {
+  font-size: 1.6rem;
+}
+
+.ui.borderless.menu {
+  box-shadow: none;
+  flex-wrap: wrap;
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.logo {
+  background-image: url(./law-hammer_md.png);
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+}
+
+.search-results-container {
+  margin-top: 1rem;
+  border-top: 2px solid #1b1c1d;
+  padding-top: 0.5rem;
+}
+
+.search-results-heading {
+  font-weight: 700;
+  font-size: large !important;
+  margin-bottom: 0.75rem;
+}
+
+.search-content-primary {
+  padding: 0.25rem 0rem !important;
+  margin: 0 !important;
+  font-size: large !important;
+}
+
+.search-content-secondary {
+  margin:0 !important;
+  margin-left: 1rem;
+  padding: 0.35rem 1rem !important;
+}
+
+.detail-form-field-padding {
+  margin: 0 0 0.35rem 0 !important;
+}
